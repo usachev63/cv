@@ -12,32 +12,31 @@
 \name{Данила}{Усачев}
 \title{Curriculum Vitae}
 \email{duesna897@gmail.com}
-\social[github]{sharkov63}
+\social[github]{usachev63}
 \extrainfo{
-    Telegram: \href{https://t.me/usachevd0}{usachevd0} \\
-    Codeforces: \href{https://codeforces.com/profile/usachevd0}{usachevd0}
+ Telegram: \href{https://t.me/usachev63}{@usachev63} \\
+ \url{https://t.me/usachevtech}
 }
 
 \begin{document}
 \maketitle
 
-\section{Стэк}
+\section{Компетенции}
 
-\cvlistitem{Разработка на C/C++ (в основном стандарт C++17 и ниже)}
-\cvlistitem{Внутренности компиляторов: LLVM и Clang}
-\cvlistitem{Lua, Python}
-\cvlistitem{Kotlin, Java}
+\cvlistitem{Системное программирование: анализ программ, внутренности компиляторов, тестирование, в т.ч. фаззинг, компьютерная безопасность, ...}
+\cvlistitem{Разработка на C++}
+\cvlistitem{Прочие языки: Lua, Java, Kotlin, Go, Python}
 
 \section{Опыт работы}
 
-\subsection{Разработка ПО}
-
-\cventry{2022--\ldots}{Разработчик-исследователь}{Huawei R\&D, Санкт-Петербургский исследовательский центр, лаборатория <<разработки и верификации сетевого ПО>>}{Санкт-Петербург, Россия}{}{Разрабатывал и поддерживал инструмент статического анализа кода, написанный на C++ и основанный на Clang, предназначенный для анализа, тестирования и верификации сетевого ПО на языке C. \\ Исследовал подходы оптимизации пайплайнов тестирования и верификации сетевого кода.}
-
-\subsection{Академия}
-
-\cventry{2022}{Член научного комитета олимпиады Innopolis Open 2022}{Университет Иннополис}{Иннополис, Россия}{}{Разрабатывал задачи для вышеуказанного соревнования по информатике.}
-\cventry{2021}{Преподаватель}{Летняя школа олимпиадной подготовки}{Университет Иннополис}{Иннополис, Россия}{}
+\cventry{2022--2025}{Huawei R\&D (3 года)}{Исследовательский центр им. Чебышева, лаборатория <<разработки и верификации сетевого ПО>>}{Санкт-Петербург, Россия}{}{
+ Разрабатывал и поддерживал предметно-ориентированный инструмент статического анализа кода, написанный на C++ и основанный на Clang, предназначенный для анализа и тестирования крупной кодовой базы сетевого ПО на языке C. \\
+ Ключевые высоко оценённые достижения:
+ \begin{itemize}
+  \item Разработал специфичный вид статического анализа, автоматический выявляющий массивы в C-программах и аппроксимирующий их длину и предназначенный для задач фаззинга. В результате покрытие кодовой базы увеличилось на 10\%, и это позволило выявить множество программных ошибок (число зарегистрированных ошибок за определённый период увеличилось на 40\%). См.~\url{https://t.me/usachevtech/4}
+  \item Оптимизировал критическую часть пайплайна тестирования в 300-400 раз, создав высокопроизводительный инструмент на C++
+ \end{itemize}
+}
 
 \section{Спортивное программирование}
 Начиная с 2017 (7 класс в школе) у меня был длинный и успешный опыт в спортивном программировании, с несколькими всероссийскими и международными победами. См. мой \href{https://codeforces.com/profile/usachevd0}{\color{blue}профиль на Codeforces}. Мои ключевые достижения:
@@ -52,44 +51,10 @@
 \newpage
 \section{Образование}
 
-\cventry{2021--2025}{Бакалавриат <<Современное программирование>>}{Санкт-Петербургский государственный университет, факультет математики и компьютерных наук}{}{}{В настоящее время (2023-2024) я учусь на 3 курсе бакалавриата}
-
-\section{Исследовательский интерес}
-
-\cvlistitem{Статический и динамический анализ кода}
-\cvlistitem{Символьное исполнение}
-\cvlistitem{Математическая логика}
+\cventry{2021--2025}{Бакалавриат <<Современное программирование>>}{Санкт-Петербургский государственный университет, факультет математики и компьютерных наук}{}{}{Дипломная работа \textit{<<Автоматический поиск массивов в C-программах с помощью статического анализа>>} \url{https://t.me/usachevtech/4}\\ Спец. курсы: языки программирования и виртуальные машины, разработка компиляторов, управление памятью, анализ кода и безопасная разработка, тестирование ПО, параллельное программирование, язык Go, язык Scala, теория графов, операционные системы, базы данных, архитектура компьютера, вычисления на видеокартах}
 
 \section{Пет-проекты}
 
 \cvlistitem{\textbf{SAKLS} (\emph{Syntax-Aware Keyboard Layout Switching}) --- проект для автоматического переключения раскладки клавиатуры в текстовом редакторе, в зависимости от синтаксиса. Доступен как плагин \href{https://github.com/sharkov63/sakls.nvim}{\color{blue}sakls.nvim} для редактора Neovim, и как библиотека-бэкенд \href{https://github.com/sharkov63/sakls}{\color{blue}sakls}.}
-
-\cvlistitem{\textbf{Утилиты для скоростного прохождения игр} на игровых движках GoldSRC и Source (например, Half-Life): \href{https://github.com/sharkov63/SaveWarpTool}{\color{blue} \texttt{SaveWarpTool}} (C++) и \href{https://github.com/sharkov63/SaveWarpFinder}{\color{blue} \texttt{SaveWarpFinder}} (Python).}
-
-\cvlistitem{\textbf{Плагин Intellij IDEA для нахождения ``code owner''}: по данным системы контроля версий найти человека, у которого больше всего знаний о данном файле (\href{https://github.com/sharkov63/code-owner-finder}{\color{blue} \texttt{code-owner-finder}}). Написано на Kotlin.}
-
-\cvlistitem{\textbf{Компилятор} игрушечного языка: тестовое задание для стажировки VK в команду KPHP (\href{https://github.com/sharkov63/vk-test-cpmc}{\color{blue} \texttt{vk-test-cpmc}}). Написан на C++.}
-
-\cvlistitem{Программа для построения графиков \href{https://github.com/sharkov63/pf-2021-viz}{\color{blue} \texttt{pf-2021-viz}}, написанная на Kotlin.}
-
-\section{Прочее}
-
-\subsection{Любительская разработка игр в Unity (JavaScript, C\#)}
-
-\cventry{2014-2016}{RcBjVh \normalfont(\href{https://drive.google.com/file/d/0B2kALEIFlKmjaV9ZWExBelpqM28/view?resourcekey=0-NZv8IgRi0ZbLzLHVM-oqMA}{\textit{\color{blue}link}})}{}{}{}{}
-
-\cventry{2015}{GrowJump \normalfont(\href{https://www.dropbox.com/s/r1o5nnbtgwa5mcb/frowJump.rar?dl=0}{\textit{\color{blue}link}})}{в рамках соревнования Ludum Dare 34}{}{}{}
-
-\indent
-
-\subsection{Скоростное прохождение игр}
-
-Во время школы я занимался <<спидраннингом>> --- попытками пройти некоторые компьютерные игры как можно быстрее. Помимо скоростных прохождений в реальном времени, я возглавлял следующие проекты.
-
-\indent
-
-\cventry{2016-2018}{Half-Life: Done Enormously Warped \normalfont(\href{https://www.youtube.com/watch?v=J0n-TIrpkDA}{\color{blue} \textit{link}})}{}{}{}{Сегментированное скоростное прохождение игры Half-Life, основанное на критическом глюке, позволяющем телепортиваться на огромные дистанции за счёт переходов между картами. Утилиты \href{https://github.com/sharkov63/SaveWarpTool}{\color{blue} \texttt{SaveWarpTool}} и \href{https://github.com/sharkov63/SaveWarpFinder}{\color{blue} \texttt{SaveWarpFinder}}, упомянутые выше, были разработаны именно для этого проекта.}
-
-\cventry{2019-2020}{Tool-assisted speedrun of I Wanna Be The Boshy \normalfont(\href{https://tasvideos.org/6843S}{\color{blue} \textit{link}})}{}{}{}{Скоростное прохождение, созданное с помощью сторонних утилит, с целью получить <<теоретически идеальное прохождение>>.}
 
 \end{document}

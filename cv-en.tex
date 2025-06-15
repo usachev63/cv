@@ -11,32 +11,32 @@
 \name{Danila}{Usachev}
 \title{Curriculum Vitae}
 \email{duesna897@gmail.com}
-\social[github]{sharkov63}
+\social[github]{usachev63}
 \extrainfo{
-    Telegram: \href{https://t.me/usachevd0}{usachevd0} \\
-    Codeforces: \href{https://codeforces.com/profile/usachevd0}{usachevd0}
+ Telegram: \href{https://t.me/usachev63}{@usachev63} \\
+ \url{https://t.me/usachevtech}
 }
 
 \begin{document}
 \maketitle
 
-\section{My Stack}
+\section{Expertise}
 
-\cvlistitem{C/C++ programming (mostly standard C++17 and under)}
-\cvlistitem{Compiler internals as in LLVM \& Clang codebase}
-\cvlistitem{Lua, Python}
-\cvlistitem{Kotlin, Java}
+\cvlistitem{System programming: program analysis, compiler internals, testing, including fuzzing, appsec, \ldots}
+\cvlistitem{C++ programming}
+\cvlistitem{Other languages: Lua, Java, Kotlin, Go, Python}
 
 \section{Professional Experience}
 
-\subsection{Software Engineering}
-
-\cventry{2022--now}{Software Engineer, Researcher}{Huawei R\&D, Saint-Petersburg Research Center, Network Software Engineering and Verification Laboratory}{Saint-Petersburg, Russia}{}{Developed and maintained a static analysis tool written in C++ and based on Clang, to analyze, test and verify network-related codebases in C language. \\ Researched approaches to optimize pipelines of testing and verification of network code.}
-
-\subsection{Academy}
-
-\cventry{2022}{Member of Innopolis Open 2022 Scientific Committee}{Innopolis University}{Innopolis, Russia}{}{Problem developer for the aforecited competition in informatics.}
-\cventry{2021}{Teacher}{Summer School for Olympiad Training}{Innopolis University}{Innopolis, Russia}{}
+\cventry{2022--2025}{Huawei R\&D (3 years)}{Chebyshev Research Center, Network Software Engineering and Verification Laboratory}{Saint-Petersburg, Russia}{}{
+  Developed and maintained a domain specific static analysis tool written in C++ and based on Clang, to analyze and test large scale codebase of network devices software in C language. \\ Key achievements:
+  \begin{itemize}
+   \item Developed a specific kind of static analysis, which automatically finds arrays in C programs and approximates their length, designed for fuzzing pipelines. As a result, codebase coverage increased by 10\%, and this allowed to find many errors (number of registered errors over a period of time increased by 40\%). \\See~\url{https://t.me/usachevtech/4}
+   \item Improved performance of a critical part of testing pipeline by 300-400 times by developing a high-performance tool in C++
+   % \item Implemented several analyses based on Steensgaard-style points-to analysis engine, the output of which is used as guidance for fuzzing and improved the test generation pipeline performance and quality.
+   % \item Authored an approach, which uses LTO, Whole Program assumption and source-code level instrumentation, with which we were able to reduce size of shared libraries by removing unused code.
+  \end{itemize}
+}
 
 \section{Competitive Programming}
 Starting from 2017 (7th year at school) I've had a long and successful experience in competitive programming, with multiple national and international achievements. See my \href{https://codeforces.com/profile/usachevd0}{\color{blue} \textit{Codeforces page}}. My best achievements are:
@@ -47,46 +47,16 @@ Starting from 2017 (7th year at school) I've had a long and successful experienc
 \cvlistitem{ \textbf{Winner} of the 33rd Russian National
 Olympiad in Informatics, 2021, Moscow, Russia.}
 
+\newpage
 \section{Education}
 
-\cventry{2021--2025}{B.Sc.~programme ``Modern Software Engineering''}{St. Petersburg State University, Department of Mathematics and Computer Science}{}{}{At the moment (2023-2024) I am a third-year Bachelor student.}
+\cventry{2021--2025}{Bachelor, ``Modern Software Engineering''}{St. Petersburg State University, Department of Mathematics and Computer Science}{}{}{
+ Thesis: ``Automatic array finding in C programs using static analysis'' \url{https://t.me/usachevtech/4} \\
+ Courses: programming languages and virtual machines, compiler design, memory management, application security, software testing, parallel computing, Go language, Scala language, graph theory, operation systems, databases, computer architecture, GPU computing
+}
 
-\section{Research Interests}
-
-\cvlistitem{Static and dynamic code analysis}
-\cvlistitem{Symbolic execution}
-\cvlistitem{Mathematical Logic}
 \section{Pet-projects}
 
 \cvlistitem{\textbf{SAKLS}: \emph{Syntax-Aware Keyboard Layout Switching} project for automatically switching layout in a text editor. Available as \href{https://github.com/sharkov63/sakls.nvim}{\color{blue}sakls.nvim} Neovim plugin and \href{https://github.com/sharkov63/sakls}{\color{blue}sakls} backend library.}
-
-\cvlistitem{\textbf{Utilities for speedrunning} GoldSRC and Source engine video games (such as Half-Life): \href{https://github.com/sharkov63/SaveWarpTool}{\color{blue} \texttt{SaveWarpTool}} (C++) and \href{https://github.com/sharkov63/SaveWarpFinder}{\color{blue} \texttt{SaveWarpFinder}} (Python).}
-
-\cvlistitem{\textbf{Intellij IDEA plugin for finding ``code owner''}: given version control system data, it finds the contributor which has the best knowledge of a given file (\href{https://github.com/sharkov63/code-owner-finder}{\color{blue} \texttt{code-owner-finder}}). Written in Kotlin.}
-
-\cvlistitem{\textbf{Compiler} of a fictional language: a test task in VK internship selection for KPHP team (\href{https://github.com/sharkov63/vk-test-cpmc}{\color{blue} \texttt{vk-test-cpmc}}). Written in C++.}
-
-\cvlistitem{Kotlin projects during ``Programming Fundamentals'' course in the first semester of undergraduate. The best one is \textbf{visual diagram building} program (\href{https://github.com/sharkov63/pf-2021-viz}{\color{blue} \texttt{pf-2021-viz}}), others can also be found on GitHub.}
-
-
-\section{Other Activities}
-
-\subsection{Amateur Game Developing in Unity (JavaScript, C\#)}
-
-\cventry{2014-2016}{RcBjVh \normalfont(\href{https://drive.google.com/file/d/0B2kALEIFlKmjaV9ZWExBelpqM28/view?resourcekey=0-NZv8IgRi0ZbLzLHVM-oqMA}{\textit{\color{blue}link}})}{}{}{}{}
-
-\cventry{2015}{GrowJump \normalfont(\href{https://www.dropbox.com/s/r1o5nnbtgwa5mcb/frowJump.rar?dl=0}{\textit{\color{blue}link}})}{as part of Ludum Dare 34 competition}{}{}{}
-
-\indent
-
-\subsection{Speedrunning}
-
-At school I used to do \textit{speedrunning} --- attempting to complete certain video games as fast as possible. Aside from real-time speedrunning, I was the head of the following projects.
-
-\indent
-
-\cventry{2016-2018}{Half-Life: Done Enormously Warped \normalfont(\href{https://www.youtube.com/watch?v=J0n-TIrpkDA}{\color{blue} \textit{link}})}{}{}{}{A segmented speedrun of Half-Life, based on a game-breaking glitch, which allows teleporting in large distances by transitioning between maps. Utilities \href{https://github.com/sharkov63/SaveWarpTool}{\color{blue} \texttt{SaveWarpTool}} and \href{https://github.com/sharkov63/SaveWarpFinder}{\color{blue} \texttt{SaveWarpFinder}} mentioned above were developed exactly for this project. }
-
-\cventry{2019-2020}{Tool-assisted speedrun of I Wanna Be The Boshy \normalfont(\href{https://tasvideos.org/6843S}{\color{blue} \textit{link}})}{}{}{}{A speedrun that was created using third-party tools with the goal of achieving ``theoretically perfect speedrun''.}
 
 \end{document}
